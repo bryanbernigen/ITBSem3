@@ -2,7 +2,12 @@ body {
   background-color: #005aab;
 }
 
+.topnav {
+  position: fixed;
+}
+
 .topnav a {
+  float: left;
   color: white;
   font-size: 72px;
   text-decoration: none;
@@ -52,5 +57,11 @@ body {
 }
 
 .topnav a:hover {
-  color: black;
+  transform: scale(1.05);
+  transition: 200ms;
+}
+
+.circles button.one {
+  top: 1500px;
+  position: absolute;
 }
