@@ -61,7 +61,52 @@ body {
   transition: 200ms;
 }
 
-.circles button.one {
-  top: 1500px;
+.mid img.main {
   position: absolute;
+  width: 738px;
+  height: 490px;
+  left: 89px;
+  top: 210px;
+}
+
+.mid h1 {
+  position: absolute;
+  width: 687px;
+  height: 98px;
+  left: 900px;
+  top: 180px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.mid h2 {
+  position: absolute;
+  width: 939px;
+  height: 275px;
+  left: 901px;
+  top: 290px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 55px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.mid img.logoitb {
+  position: absolute;
+  width: 152px;
+  height: 152px;
+  left: 1688px;
+  top: 550px;
 }
