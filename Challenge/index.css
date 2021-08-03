@@ -1,3 +1,81 @@
 body {
   background-color: #005aab;
 }
+
+.topnav a {
+  color: white;
+  font-size: 72px;
+  text-decoration: none;
+}
+
+.topnav a.home {
+  position: absolute;
+  width: 767px;
+  height: 98px;
+  left: 24px;
+  top: 12px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+}
+
+.topnav a.academics {
+  position: absolute;
+  width: 304px;
+  height: 98px;
+  left: 857px;
+  top: 12px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+
+  color: #ffffff;
+}
+
+.topnav a.clubs {
+  position: absolute;
+  width: 155px;
+  height: 98px;
+  left: 1227px;
+  top: 12px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+}
+
+.topnav a.others {
+  position: absolute;
+  width: 199px;
+  height: 98px;
+  left: 1448px;
+  top: 12px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+}
+
+.topnav a.about {
+  position: absolute;
+  width: 172px;
+  height: 98px;
+  left: 1713px;
+  top: 12px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+}
