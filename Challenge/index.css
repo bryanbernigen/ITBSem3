@@ -110,3 +110,19 @@ body {
   left: 1688px;
   top: 550px;
 }
+
+.bottom .title h2 {
+  position: absolute;
+  width: 240px;
+  height: 98px;
+  left: 861px;
+  top: 761px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 98px;
+
+  color: #ffffff;
+}
