@@ -4,9 +4,23 @@ body {
 
 .topnav {
   position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.topnav .topnavbg {
+  position: absolute;
+  z-index: 99;
+  background-color: #005aab;
+  width: 1910px;
+  height: 114px;
+
+  border-style: solid;
+  border-color: white;
 }
 
 .topnav a {
+  z-index: 100;
   float: left;
   color: white;
   font-size: 72px;
@@ -32,7 +46,7 @@ body {
   position: absolute;
   width: 304px;
   height: 98px;
-  left: 857px;
+  left: 867px;
 }
 
 .topnav a.clubs {
