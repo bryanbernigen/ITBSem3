@@ -162,6 +162,14 @@ body {
   background-color: #ffffff;
 }
 
+.bottom .circle {
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 170px;
+}
+
 .bottom .circle span.hs {
   position: absolute;
   width: 160px;
@@ -171,4 +179,5 @@ body {
   background: #ffffff;
   left: 74px;
   top: 1505px;
+  text-align: center;
 }
