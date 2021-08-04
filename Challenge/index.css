@@ -126,3 +126,14 @@ body {
 
   color: #ffffff;
 }
+
+.bottom .circle span.hs {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 74px;
+  top: 1505px;
+}
