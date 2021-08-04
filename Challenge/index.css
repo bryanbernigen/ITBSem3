@@ -162,118 +162,69 @@ body {
   background-color: #ffffff;
 }
 
-.bottom .circle {
+.bottom .circle a {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #ffffff;
+
   font-family: Coming Soon;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
   line-height: 170px;
 }
 
-.bottom .circle span.hs {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+.bottom .circle a:hover {
+  transform: scale(1.05);
+  transition: 200ms;
+}
 
-  background: #ffffff;
+.bottom .circle .hs {
   left: 74px;
   top: 1505px;
-  text-align: center;
 }
 
-.bottom .circle span.one {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.one {
   left: 83px;
   top: 1176px;
-  text-align: center;
 }
 
-.bottom .circle span.two {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.two {
   left: 283px;
   top: 930px;
-  text-align: center;
 }
 
-.bottom .circle span.three {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.three {
   left: 480px;
   top: 1260px;
-  text-align: center;
 }
 
-.bottom .circle span.four {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.four {
   left: 719px;
   top: 1487px;
-  text-align: center;
 }
 
-.bottom .circle span.five {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.five {
   left: 873px;
   top: 1176px;
-  text-align: center;
 }
 
-.bottom .circle span.six {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.six {
   left: 1187px;
   top: 1054px;
-  text-align: center;
 }
 
-.bottom .circle span.seven {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.seven {
   left: 1429px;
   top: 1316px;
-  text-align: center;
 }
 
-.bottom .circle span.eight {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  background: #ffffff;
+.bottom .circle a.eight {
   left: 1646px;
   top: 1549px;
-  text-align: center;
 }
