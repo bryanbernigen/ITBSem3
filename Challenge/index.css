@@ -181,3 +181,99 @@ body {
   top: 1505px;
   text-align: center;
 }
+
+.bottom .circle span.one {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 83px;
+  top: 1176px;
+  text-align: center;
+}
+
+.bottom .circle span.two {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 283px;
+  top: 930px;
+  text-align: center;
+}
+
+.bottom .circle span.three {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 480px;
+  top: 1260px;
+  text-align: center;
+}
+
+.bottom .circle span.four {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 719px;
+  top: 1487px;
+  text-align: center;
+}
+
+.bottom .circle span.five {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 873px;
+  top: 1176px;
+  text-align: center;
+}
+
+.bottom .circle span.six {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 1187px;
+  top: 1054px;
+  text-align: center;
+}
+
+.bottom .circle span.seven {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 1429px;
+  top: 1316px;
+  text-align: center;
+}
+
+.bottom .circle span.eight {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  background: #ffffff;
+  left: 1646px;
+  top: 1549px;
+  text-align: center;
+}
