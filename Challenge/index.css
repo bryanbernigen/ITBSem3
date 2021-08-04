@@ -129,7 +129,7 @@ body {
   position: absolute;
   width: 240px;
   height: 98px;
-  left: 861px;
+  left: 840px;
   top: 761px;
 
   font-family: Coming Soon;
@@ -139,6 +139,27 @@ body {
   line-height: 98px;
 
   color: #ffffff;
+}
+
+.bottom .title .lineleft {
+  position: absolute;
+  width: 800px;
+  height: 10px;
+
+  top: 855px;
+  left: 20px;
+
+  background-color: #ffffff;
+}
+
+.bottom .title .lineright {
+  position: absolute;
+  width: 800px;
+  height: 10px;
+
+  top: 855px;
+  left: 1100px;
+  background-color: #ffffff;
 }
 
 .bottom .circle span.hs {
