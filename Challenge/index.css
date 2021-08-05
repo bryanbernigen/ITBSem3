@@ -228,3 +228,106 @@ body {
   left: 1646px;
   top: 1549px;
 }
+
+.bottom .line span {
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  background: #ffffff;
+}
+
+.bottom .line span.one {
+  top: 1467px;
+  left: 150px;
+  transform: rotate(90deg);
+}
+
+.bottom .line span.two {
+  top: 1410px;
+  left: 154px;
+  transform: rotate(90deg);
+}
+
+.bottom .line span.three {
+  top: 1155px;
+  left: 200px;
+  transform: rotate(-57deg);
+}
+
+.bottom .line span.four {
+  top: 1105px;
+  left: 240px;
+  transform: rotate(-50deg);
+}
+
+.bottom .line span.five {
+  top: 1125px;
+  left: 434px;
+  transform: rotate(63deg);
+}
+
+.bottom .line span.six {
+  top: 1189px;
+  left: 471px;
+  transform: rotate(66deg);
+}
+
+.bottom .line span.seven {
+  top: 1437px;
+  left: 631px;
+  transform: rotate(47deg);
+}
+
+.bottom .line span.eight {
+  top: 1482px;
+  left: 684px;
+  transform: rotate(36deg);
+}
+
+.bottom .line span.nine {
+  left: 853px;
+  top: 1458.36px;
+  transform: rotate(-61.48deg);
+}
+
+.bottom .line span.ten {
+  left: 885px;
+  top: 1396.36px;
+  transform: rotate(-61.48deg);
+}
+
+.bottom .line span.eleven {
+  left: 1049.2px;
+  top: 1183.17px;
+  transform: rotate(-28.66deg);
+}
+
+.bottom .line span.twelve {
+  left: 1124px;
+  top: 1154.57px;
+  transform: rotate(-1.09deg);
+}
+
+.bottom .line span.thirteen {
+  left: 1372.76px;
+  top: 1215.01px;
+  transform: rotate(50.78deg);
+}
+
+.bottom .line span.fourteen {
+  left: 1421.53px;
+  top: 1279.13px;
+  transform: rotate(49.8deg);
+}
+
+.bottom .line span.fifteen {
+  left: 1593.58px;
+  top: 1474px;
+  transform: rotate(49.8deg);
+}
+
+.bottom .line span.sixteen {
+  left: 1631.58px;
+  top: 1522px;
+  transform: rotate(49.8deg);
+}
