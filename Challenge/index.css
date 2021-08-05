@@ -117,12 +117,16 @@ body {
   color: #ffffff;
 }
 
+.mid img.logoitb:hover {
+  transform: scale(1.05);
+  transition: 200ms;
+}
 .mid img.logoitb {
   position: absolute;
   width: 152px;
   height: 152px;
-  left: 1688px;
-  top: 550px;
+  left: 1675px;
+  top: 565px;
 }
 
 .bottom .title h2 {
