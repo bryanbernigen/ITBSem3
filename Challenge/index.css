@@ -3,23 +3,25 @@ body {
 }
 
 .topnav {
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  position: relative;
 }
 
 .topnav .topnavbg {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   background-color: #005aab;
   width: 1910px;
   height: 114px;
+
+  top: 0px;
+  left: 0px;
 
   border-style: solid;
   border-color: white;
 }
 
 .topnav a {
+  position: fixed;
   z-index: 100;
   float: left;
   color: white;
@@ -36,35 +38,30 @@ body {
 }
 
 .topnav a.home {
-  position: absolute;
   width: 767px;
   height: 98px;
   left: 24px;
 }
 
 .topnav a.academics {
-  position: absolute;
   width: 304px;
   height: 98px;
   left: 867px;
 }
 
 .topnav a.clubs {
-  position: absolute;
   width: 155px;
   height: 98px;
   left: 1227px;
 }
 
 .topnav a.others {
-  position: absolute;
   width: 199px;
   height: 98px;
   left: 1448px;
 }
 
 .topnav a.about {
-  position: absolute;
   width: 172px;
   height: 98px;
   left: 1713px;
@@ -120,6 +117,7 @@ body {
 .mid img.logoitb:hover {
   transform: scale(1.05);
   transition: 200ms;
+  z-index: 95;
 }
 .mid img.logoitb {
   position: absolute;
