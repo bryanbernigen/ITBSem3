@@ -331,3 +331,30 @@ body {
   left: 1613px;
   transform: rotate(46deg);
 }
+
+.bottom .images a.itbganesha img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 500px;
+  top: 856px;
+  object-fit: none;
+}
+
+.bottom .images a.boscha img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 982px;
+  top: 1256px;
+  object-fit: none;
+}
+
+.bottom .images a.sabuga img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 1450px;
+  top: 867px;
+  object-fit: none;
+}
