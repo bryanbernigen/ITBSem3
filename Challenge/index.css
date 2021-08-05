@@ -334,6 +334,11 @@ body {
   transform: rotate(46deg);
 }
 
+.bottom .images img:hover {
+  transform: translateY(-10px);
+  transition: 200ms;
+}
+
 .bottom .images a.itbganesha img {
   position: absolute;
   width: 400px;
