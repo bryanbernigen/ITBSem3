@@ -368,7 +368,7 @@ body {
 
 .end{
   position: absolute;
-  top: 1700px;
+  top: 1750px;
   left: 20px;
 
   font-family: Coming Soon;
@@ -376,4 +376,34 @@ body {
   font-weight: normal;
   font-size: 36px;
   color: #ffffff;
+}
+
+/*------------------------------------this is then thumbs up and down----------------------------------------------*/
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+}
+
+#thumbsUp{
+  left: 375px;
+  top: -4px;
+}
+
+#thumbsDown{
+  left: 440px;
+  top: -4px;
+
+}
+
+.fa:hover {
+  color: black;
+}
+
+#likeOrDislike{
+  position: absolute;
+  top: 0px;
+  left: 510px;
+  width: max-content;
 }
