@@ -365,3 +365,15 @@ body {
   top: 867px;
   object-fit: none;
 }
+
+.end{
+  position: absolute;
+  top: 1700px;
+  left: 20px;
+
+  font-family: Coming Soon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #ffffff;
+}
