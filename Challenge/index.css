@@ -366,7 +366,7 @@ body {
   object-fit: none;
 }
 
-.end{
+.end {
   position: absolute;
   top: 1750px;
   left: 20px;
@@ -386,22 +386,21 @@ body {
   position: absolute;
 }
 
-#thumbsUp{
+#thumbsUp {
   left: 375px;
   top: -4px;
 }
 
-#thumbsDown{
+#thumbsDown {
   left: 440px;
   top: -4px;
-
 }
 
 .fa:hover {
   color: black;
 }
 
-#likeOrDislike{
+#likeOrDislike {
   position: absolute;
   top: 0px;
   left: 510px;
