@@ -40,12 +40,12 @@ boolean IsOrigin(POINT P)
 
 boolean IsOnSbX(POINT P)
 {
-    return (Absis(P) == 0.0);
+    return (Ordinat(P) == 0.0);
 };
 
 boolean IsOnSbY(POINT P)
 {
-    return (Ordinat(P) == 0.0);
+    return (Absis(P) == 0.0);
 };
 
 int Kuadran(POINT P)

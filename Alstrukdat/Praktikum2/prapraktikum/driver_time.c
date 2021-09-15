@@ -81,8 +81,8 @@ int main()
 
     //durasi
     printf("\n\nTes durasi");
-    waktu1 = MakeTIME(22, 0, 0);
-    waktu2 = MakeTIME(23, 0, 0);
+    waktu1 = MakeTIME(23, 59, 59);
+    waktu2 = MakeTIME(23, 59, 59);
     durasi = Durasi(waktu1, waktu2);
     printf("\n22:59:59 - 23:59:59 %ld", durasi);
     durasi = Durasi(waktu2, waktu1);

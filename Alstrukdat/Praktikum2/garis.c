@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "garis.h"
-#include "point.c"
 
 /* ***************************************************************** */
 /* DEFINISI PRIMITIF                                                 */

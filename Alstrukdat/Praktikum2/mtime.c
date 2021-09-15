@@ -1,15 +1,16 @@
 #include <stdio.h>
-#include "time.c"
+#include "time.h"
 
 int main()
 {
     int jumlah, terawal = 84600, terakhir = 0;
+    int i;
     TIME time1, time2;
     long durasitelp;
     //User diminta memasukkan jumlah data yang ada
     scanf("%d", &jumlah);
     //user diminta memasukkan time sebanyak jumlah data kali
-    for (size_t i = 0; i < jumlah; i++)
+    for (i = 0; i < jumlah; i++)
     {
         printf("[%d]\n", i + 1);
         BacaTIME(&time1);
@@ -48,4 +49,6 @@ int main()
     TulisTIME(time1);
     printf("\n");
     TulisTIME(time2);
+    printf("\n");
+    return 0;
 }
