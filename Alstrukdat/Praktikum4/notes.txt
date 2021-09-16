@@ -1,0 +1,2 @@
+mlistdin.c belum 100% benar 100/110
+listdinpos.c belum 100% benar 440/510
