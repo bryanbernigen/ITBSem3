@@ -1,3 +1,6 @@
 [submodule "Milestone02_K22"]
 	path = Osjur/Milestone02_K22
 	url = https://github.com/FelineJTD/Milestone02_K22.git
+[submodule "Algeo/Algeo01-20008"]
+	path = Algeo/Algeo01-20008
+	url = https://github.com/danielsalim/Algeo01-20008
