@@ -13,3 +13,6 @@
 [submodule "TBFO/TBFO01-20021"]
 	path = TBFO/TBFO01-20021
 	url = https://github.com/bryanbernigen/TBFO01-20021
+[submodule "Logkom/CupangFarmer"]
+	path = Logkom/CupangFarmer
+	url = https://github.com/Nk-Kyle/CupangFarmer
