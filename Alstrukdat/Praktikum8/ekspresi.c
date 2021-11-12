@@ -6,66 +6,73 @@ Topik praktikum : Stack
 Deskripsi       : praktikum 8 dengan topik yang sama
 */
 
-#include "stack.c"
-#include "tokenmachine.c"
+#include "stack.h"
+#include "tokenmachine.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 
 int main()
 {
-    Stack s;
-    int val, val2;
-    int hasil;
-    div_t hasildiv;
+    // KAMUS DAN DEKLARASI VARIABEL
+    Stack isi;
+    int val1, val2, res;
+    // ALGORITMA
     startToken();
-    CreateStack(&s);
+    CreateStack(&isi);
     if (endToken)
-    {
         printf("Ekspresi kosong\n");
-    }
     else
     {
         while (!endToken)
         {
             if (currentToken.tkn == 'b')
             {
-                push(&s, currentToken.val);
                 printf("%d\n", currentToken.val);
+                push(&isi, currentToken.val);
             }
             else
             {
-                pop(&s, &val);
-                pop(&s, &val2);
-                printf("%d %c %d\n", val2, currentToken.tkn, val);
+                pop(&isi, &val2);
+                pop(&isi, &val1);
                 if (currentToken.tkn == '+')
                 {
-                    hasil = val + val2;
+                    printf("%d + %d\n", val1, val2);
+                    res = val1 + val2;
+                    printf("%d\n", res);
+                    push(&isi, res);
                 }
                 else if (currentToken.tkn == '-')
                 {
-                    hasil = val - val2;
+                    printf("%d - %d\n", val1, val2);
+                    res = val1 - val2;
+                    printf("%d\n", res);
+                    push(&isi, res);
                 }
                 else if (currentToken.tkn == '*')
                 {
-                    hasil = val * val2;
+                    printf("%d * %d\n", val1, val2);
+                    res = val1 * val2;
+                    printf("%d\n", res);
+                    push(&isi, res);
                 }
                 else if (currentToken.tkn == '/')
                 {
-                    hasildiv = div(val, val2);
-                    hasil = hasildiv.quot;
+                    printf("%d / %d\n", val1, val2);
+                    res = val1 / val2;
+                    printf("%d\n", res);
+                    push(&isi, res);
                 }
-                else if (currentToken.tkn == '^')
+                else
                 {
-                    hasil = pow(val, val2);
+                    printf("%d ^ %d\n", val1, val2);
+                    res = pow(val1, val2);
+                    printf("%d\n", res);
+                    push(&isi, res);
                 }
-                push(&s, hasil);
-                printf("%d\n", hasil);
             }
             advToken();
         }
-        pop(&s, &hasil);
-        printf("Hasil=%d\n", hasil);
+        pop(&isi, &val1);
+        printf("Hasil=%d\n", val1);
     }
-    return 0;
 }
